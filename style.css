@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(200, 205, 211);
+}
+
 /* header */
 .top-left {
   position: absolute;
@@ -8,4 +12,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+.title {
 }
