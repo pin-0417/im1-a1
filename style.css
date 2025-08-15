@@ -62,7 +62,9 @@ body {
 
 /* analysis section */
 .analysis-section {
-  margin: 40px;
+  margin: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 h2 {
   font-family: "Scheherazade New", serif;
@@ -70,7 +72,7 @@ h2 {
   font-style: normal;
   background-color: rgb(142, 173, 167);
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
   color: rgb(255, 255, 255);
   border-top-left-radius: 8px;
@@ -94,6 +96,7 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  margin-top: 50px;
 }
 .text {
   font-family: "Mukta", sans-serif;
@@ -151,10 +154,11 @@ p {
   flex-direction: column;
   border-radius: 8px;
   background: white;
-  margin: 20px;
+  max-width: 700px;
 }
-.question6 img {
-  width: 80%;
+.row2 img {
+  width: 400px;
+  border-radius: 12px;
 }
 
 .row2 {
@@ -187,8 +191,9 @@ p {
   background: white;
   margin: 20px;
 }
-.question9 img {
-  width: 80%;
+.image-space img {
+  max-width: 40%;
+  margin: 20px;
 }
 .question10 {
   display: flex;
@@ -203,6 +208,9 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+}
+.row4 {
+  display: flex;
 }
 .question12 {
   display: flex;
@@ -226,6 +234,9 @@ footer {
   color: rgb(241, 235, 227);
 }
 .footer-content {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   margin: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
