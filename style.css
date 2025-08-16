@@ -132,6 +132,7 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
 
 .question4 {
@@ -140,6 +141,7 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
 .question5 {
   display: flex;
@@ -147,27 +149,35 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
 
-.question6 {
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
-  background: white;
-  max-width: 700px;
+.question6 h2 {
+  background-color: rgb(59, 79, 81);
+  padding-left: 90px;
 }
+.question6 p {
+  color: aliceblue;
+  padding-left: 90px;
+  max-width: 750px;
+}
+
 .row2 img {
   width: 400px;
-  border-radius: 12px;
 }
 
 .row2 {
   display: flex;
-  gap: 20px;
   align-items: start;
   max-width: auto;
   margin: auto;
   padding: 20px;
+  background-color: rgb(59, 79, 81);
+  margin-left: -80px;
+  margin-right: -80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
 }
 
 .question7 {
@@ -176,6 +186,7 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
 .question8 {
   display: flex;
@@ -183,6 +194,7 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
 .question9 {
   display: flex;
@@ -190,26 +202,50 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
-.image-space img {
-  max-width: 40%;
-  margin: 20px;
+.row3 {
+  display: flex;
 }
+
 .question10 {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
-.question11 {
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
-  background: white;
-  margin: 20px;
+.question11 h2 {
+  background-color: rgb(59, 79, 81);
+  padding-left: 90px;
+  padding-top: 30px;
 }
+.question11 p {
+  color: aliceblue;
+  padding-left: 90px;
+  max-width: 750px;
+}
+.row4 img {
+  width: 400px;
+  padding-right: 130px;
+}
+
 .row4 {
+  display: flex;
+  align-items: start;
+  max-width: auto;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(59, 79, 81);
+  margin-left: -80px;
+  margin-right: -80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.row5 {
   display: flex;
 }
 .question12 {
@@ -218,6 +254,7 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
 .question13 {
   display: flex;
@@ -225,6 +262,7 @@ p {
   border-radius: 8px;
   background: white;
   margin: 20px;
+  flex: 1;
 }
 
 /* footer */
